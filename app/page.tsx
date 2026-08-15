@@ -126,7 +126,7 @@ export default function PersonalWebsite() {
           <p className="text-lg leading-8 text-[#526158]">从工程造价审计中的成本核验，到美客多店铺的选品、利润测算与 Listing 优化，再到独立完成上架工具开发，我持续在实践中建立“发现问题 - 数据判断 - 快速交付 - 复盘迭代”的工作方式。</p>
         </div>
         <div className="mt-12 grid border-y border-[#dce2da] py-7 sm:grid-cols-3">
-          {[{ value: "4 年", label: "工作经验" }, { value: "700 单", label: "跨境店铺累计订单" }, { value: "20 万元", label: "内审累计核减金额" }].map((item) => (
+          {[{ value: "4 年", label: "工作经验" }, { value: "1500 单", label: "跨境店铺累计订单" }, { value: "100 万元", label: "内审累计核减金额" }].map((item) => (
             <div key={item.label} className="border-[#dce2da] py-4 text-center sm:border-r sm:last:border-0">
               <p className="text-3xl font-bold text-[#173b2d]">{item.value}</p><p className="mt-1 text-sm text-[#607067]">{item.label}</p>
             </div>
