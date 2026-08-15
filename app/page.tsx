@@ -5,7 +5,6 @@ import {
   ArrowDown,
   ArrowUpRight,
   BarChart3,
-  BriefcaseBusiness,
   CheckCircle2,
   Code2,
   FileCheck2,
@@ -105,7 +104,7 @@ export default function PersonalWebsite() {
       <section id="top" className="border-b border-[#dce2da] bg-white">
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 md:grid-cols-[1.45fr_.75fr] md:py-28">
           <div>
-            <p className="mb-5 flex items-center gap-2 text-sm font-medium text-[#18794e]"><Sparkles className="h-4 w-4" />产品经理候选人</p>
+            <p className="mb-5 flex items-center gap-2 text-sm font-medium text-[#18794e]"><Sparkles className="h-4 w-4" />个人经历与作品</p>
             <h1 className="max-w-3xl text-5xl font-bold leading-tight tracking-normal text-[#173b2d] md:text-7xl">以数据与执行力，推动业务从想法走向落地。</h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-[#526158]">4 年工作经验，拥有工程成本管控、跨境电商实战与 AI 工具开发经历。擅长从复杂流程中梳理问题，用数据、工具和快速验证提升业务效率。</p>
             <div className="mt-9 flex flex-wrap gap-3">
@@ -116,10 +115,6 @@ export default function PersonalWebsite() {
           <aside className="self-end border-l-4 border-[#e2b93b] bg-[#f3f6f0] p-7">
             <p className="text-sm font-medium text-[#607067]">核心标签</p>
             <p className="mt-3 text-2xl font-semibold leading-9 text-[#173b2d]">严谨数据思维<br />轻资产实战经验<br />抗压与持续学习</p>
-            <div className="mt-7 space-y-3 text-sm text-[#4b5c52]">
-              <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-[#18794e]" />期望城市：重庆</p>
-              <p className="flex items-center gap-2"><BriefcaseBusiness className="h-4 w-4 text-[#18794e]" />目标岗位：产品经理</p>
-            </div>
           </aside>
         </div>
       </section>
