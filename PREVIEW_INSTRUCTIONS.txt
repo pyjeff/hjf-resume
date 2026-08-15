@@ -1,0 +1,68 @@
+# 预览个人网站说明
+
+由于当前环境存在依赖安装限制，请按照以下步骤在本地运行这个 Next.js 网站：
+
+## 方法一：使用 npm（推荐）
+
+1. 打开终端，进入项目目录：
+```bash
+cd f:\新建文件夹\personal-website-creation
+```
+
+2. 安装依赖：
+```bash
+npm install
+```
+
+3. 启动开发服务器：
+```bash
+npm run dev
+```
+
+4. 打开浏览器访问：http://localhost:3000
+
+## 方法二：使用 pnpm
+
+如果您更喜欢 pnpm：
+```bash
+cd f:\新建文件夹\personal-website-creation
+pnpm install
+pnpm dev
+```
+
+## 方法三：使用 yarn
+
+```bash
+cd f:\新建文件夹\personal-website-creation
+yarn install
+yarn dev
+```
+
+## 方法四：使用 bun（最快的方案）
+
+```bash
+cd f:\新建文件夹\personal-website-creation
+bun install
+bun dev
+```
+
+## 注意事项
+
+- 项目使用 Next.js 15 和 React 19
+- 需要 Node.js 18.17 或更高版本
+- 如果遇到权限问题，请以管理员身份运行终端
+- 确保项目路径不包含特殊字符或空格
+
+## 故障排除
+
+如果 `npm install` 失败：
+1. 清理 npm 缓存：`npm cache clean --force`
+2. 删除 node_modules 和 package-lock.json（如有）
+3. 重新安装：`npm install`
+
+如果端口 3000 被占用，可以指定其他端口：
+```bash
+npm run dev -- -p 3001
+```
+
+祝您预览愉快！

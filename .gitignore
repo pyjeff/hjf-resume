@@ -1,0 +1,56 @@
+# 本文件用于排除本地依赖、构建缓存、凭据和编辑器配置，避免将敏感信息推送到 GitHub。
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 环境变量与本地凭据
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# 私钥、证书与本地授权文件
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+service-account*.json
+firebase-adminsdk*.json
+
+# 本地编辑器与系统文件
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率、临时文件与本地日志
+/coverage/
+/playwright-report/
+/test-results/
+/tmp/
+*.log
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
